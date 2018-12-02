@@ -37,9 +37,11 @@ Put `phpcs.dist.xml` and adjust to your project specific needs:
 
 ## Running
 
-Run `PHP_CodeSniffer` in your terminal (_replace with `vendor/bin` path if no `bin-dir` configured in your `composer.json`_):
-* `bin/phpcs` to check coding standard
+Run `PHP_CodeSniffer` in your terminal:
+* `bin/phpcs` to check your project coding standard
 * `bin/phpcbf` to fix your project coding standard
+
+> Note! replace with `vendor/bin` path if no `bin-dir` configured in your `composer.json`_
 
 ## Configuration
 

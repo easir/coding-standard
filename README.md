@@ -35,6 +35,10 @@ Put `phpcs.dist.xml` and adjust to your project specific needs:
 </ruleset>
 ```
 
+Run `PHP_CodeSniffer` in your terminal (_replace with `vendor/bin` path if no `bin-dir` configured in your `composer.json`_):
+* `bin/phpcs` to check coding standard
+* `bin/phpcbf` to fix your project coding standard
+
 ## Configuration
 
 For Laravel Projects add following directories to your `phpcs.dist.xml`:

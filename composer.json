@@ -21,14 +21,14 @@
     {"name": "Adam Marchewicz", "email": "am@easir.com"}
   ],
   "autoload": {
-    "psr-4": {
+    "psr-0": {
       "Easir\\Sniffs\\": "src/"
     }
   },
   "require": {
     "php": "^7.1",
     "doctrine/coding-standard": "^5.0",
-    "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+    "dealerdirect/phpcodesniffer-composer-installer": "0.4.4",
     "slevomat/coding-standard": "^4.8.0",
     "squizlabs/php_codesniffer": "^3.3.2"
   },
@@ -39,5 +39,6 @@
     "branch-alias": {
       "dev-master": "1.0.x-dev"
     }
-  }
+  },
+  "version": "1.0"
 }

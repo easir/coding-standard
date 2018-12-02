@@ -1,0 +1,43 @@
+{
+  "name": "easir/coding-standard",
+  "type": "phpcodesniffer-standard",
+  "description": "The Easi'r Coding Standard is a set of PHPCS rules applied to all Easi'r projects.",
+  "keywords": [
+    "doctrine",
+    "coding",
+    "standard",
+    "cs",
+    "code",
+    "style",
+    "sniffer",
+    "rules",
+    "sniffs",
+    "checks"
+  ],
+  "license": "MIT",
+  "authors": [
+    {"name": "Michał Brzuchalski", "email": "mbr@easir.com"},
+    {"name": "Adrian Modliszewski", "email": "ad@easir.com"},
+    {"name": "Adam Marchewicz", "email": "am@easir.com"}
+  ],
+  "autoload": {
+    "psr-4": {
+      "Easir\\Sniffs\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.1",
+    "doctrine/coding-standard": "^5.0",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+    "slevomat/coding-standard": "^4.8.0",
+    "squizlabs/php_codesniffer": "^3.3.2"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}

@@ -35,6 +35,8 @@ Put `phpcs.dist.xml` and adjust to your project specific needs:
 </ruleset>
 ```
 
+## Running
+
 Run `PHP_CodeSniffer` in your terminal (_replace with `vendor/bin` path if no `bin-dir` configured in your `composer.json`_):
 * `bin/phpcs` to check coding standard
 * `bin/phpcbf` to fix your project coding standard

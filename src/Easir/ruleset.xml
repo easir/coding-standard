@@ -24,14 +24,13 @@
     <rule ref="Doctrine">
         <exclude name="Generic.Formatting.SpaceAfterNot.Incorrect"/>
         <exclude name="Generic.Formatting.MultipleStatementAlignment.NotSame"/>
-        <exclude name="SlevomatCodingStandard.Commenting.DocCommentSpacing.IncorrectAnnotationsGroup"/>
         <exclude name="SlevomatCodingStandard.TypeHints.DeclareStrictTypes.IncorrectWhitespaceBetweenOpenTagAndDeclare"/>
         <exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamType"/>
     </rule>
 
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing">
         <properties>
-            <property name="spacesCountBeforeColon">0</property>
+            <property name="spacesCountBeforeColon" value="0"/>
         </properties>
     </rule>
 
@@ -47,6 +46,7 @@
         <properties>
             <property name="linesCountBeforeFirstContent" value="0"/>
             <property name="linesCountBetweenDifferentAnnotationsTypes" value="0"/>
+            <property name="linesCountBetweenAnnotationsGroups" value="0"/>
             <property name="annotationsGroups" type="array">
                 <element value="
                     @ORM\,
@@ -55,6 +55,7 @@
                     @var,
                     @param,
                     @return,
+                    @throws,
                 "/>
             </property>
         </properties>

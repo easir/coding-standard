@@ -1,7 +1,7 @@
-# Easir Coding Standard
+# Easi'r Coding Standard
 
-The Easir Coding Standard is a set of rules for PHP_CodeSniffer and 
-applies to all Easir projects. It is based on Doctrine, PSR-1 and 
+The Easi'r Coding Standard is a set of rules for PHP_CodeSniffer and 
+applies to all Easi'r projects. It is based on Doctrine, PSR-1 and 
 PSR-2, with some noticeable exceptions/differences/extensions.
 
 ## Installation
@@ -28,10 +28,20 @@ Put `phpcs.dist.xml` and adjust to your project specific needs:
     <!-- Ignore warnings, show progress of the run and show sniff names -->
     <arg value="nps"/>
 
-    <!-- Directories to be checked (add "app" for Laravel Project) -->
+    <!-- Directories to be checked -->
     <file>src</file>
 
     <rule ref="Easir"/>
+</ruleset>
+```
+
+## Configuration
+
+For Laravel Projects add following directories to your `phpcs.dist.xml`:
+```xml
+<?xml version="1.0"?>
+<ruleset>
+    <file>app</file>
 </ruleset>
 ```
 

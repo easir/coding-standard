@@ -1,8 +1,8 @@
 # Easi'r Coding Standard
 
-The Easi'r Coding Standard is a set of rules for PHP_CodeSniffer and 
-applies to all Easi'r projects. It is based on Doctrine, PSR-1 and 
-PSR-2, with some noticeable exceptions/differences/extensions.
+The Easi'r Coding Standard is a set of rules for *PHP_CodeSniffer* and 
+applies to all Easi'r projects. It is based on *Doctrine*, *PSR-1* and 
+*PSR-2*, with some noticeable exceptions/differences/extensions.
 
 ## Installation
 

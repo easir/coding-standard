@@ -22,9 +22,10 @@
     <rule ref="SlevomatCodingStandard.ControlStructures.NewWithParentheses"/>
 
     <rule ref="Doctrine">
+        <!-- Disallow whitespace after `!` -->
         <exclude name="Generic.Formatting.SpaceAfterNot.Incorrect"/>
+        <!-- Don't align corresponding assignment statement tokens -->
         <exclude name="Generic.Formatting.MultipleStatementAlignment.NotSame"/>
-        <exclude name="SlevomatCodingStandard.TypeHints.DeclareStrictTypes.IncorrectWhitespaceBetweenOpenTagAndDeclare"/>
         <exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamType"/>
     </rule>
 
@@ -34,6 +35,7 @@
         </properties>
     </rule>
 
+    <!-- Require presence of declare(strict_types = 1) in the same line as php open tag -->
     <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
         <properties>
             <property name="newlinesCountBetweenOpenTagAndDeclare" value="0"/>
@@ -42,6 +44,7 @@
         </properties>
     </rule>
 
+    <!-- Enforces 0 lines between first/last content, description and annotations or different annotations types -->
     <rule ref="SlevomatCodingStandard.Commenting.DocCommentSpacing.IncorrectAnnotationsGroup">
         <properties>
             <property name="linesCountBeforeFirstContent" value="0"/>

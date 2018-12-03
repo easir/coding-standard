@@ -28,6 +28,8 @@
         <exclude name="Generic.Formatting.MultipleStatementAlignment.NotSame"/>
         <exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamType"/>
         <exclude name="SlevomatCodingStandard.Commenting.DocCommentSpacing.IncorrectAnnotationsGroup"/>
+        <!-- Disallow unused use (ignored cause of issue when type from use is used only in static context -->
+        <exclude name="SlevomatCodingStandard.Namespaces.UnusedUses.UnusedUse"/>
     </rule>
 
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing">

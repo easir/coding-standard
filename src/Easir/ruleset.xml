@@ -15,7 +15,7 @@
         </properties>
     </rule>
 
-    <!-- Require language constructs without parentheses -->
+    <!-- Require language constructs with parentheses -->
     <rule ref="SlevomatCodingStandard.ControlStructures.LanguageConstructWithParentheses"/>
 
     <!-- Require new instances with parentheses -->

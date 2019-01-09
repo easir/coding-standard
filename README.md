@@ -12,7 +12,7 @@ Using _Composer_:
 composer require easir/coding-standard
 ```
 
-Put `phpcs.dist.xml` and adjust to your project specific needs:
+Put `phpcs.xml.dist` and adjust to your project specific needs:
 ```xml
 <?xml version="1.0"?>
 <ruleset
@@ -45,7 +45,7 @@ Run `PHP_CodeSniffer` in your terminal:
 
 ## Configuration
 
-For Laravel Projects add following directories to your `phpcs.dist.xml`:
+For Laravel Projects add following directories to your `phpcs.xml.dist`:
 ```xml
 <?xml version="1.0"?>
 <ruleset>

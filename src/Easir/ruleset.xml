@@ -30,20 +30,12 @@
         <exclude name="SlevomatCodingStandard.Commenting.DocCommentSpacing.IncorrectAnnotationsGroup"/>
         <!-- Disallow unused use (ignored cause of issue when type from use is used only in static context -->
         <exclude name="SlevomatCodingStandard.Namespaces.UnusedUses.UnusedUse"/>
+        <exclude name="SlevomatCodingStandard.TypeHints.DeclareStrictTypes"/>
     </rule>
 
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing">
         <properties>
             <property name="spacesCountBeforeColon" value="0"/>
-        </properties>
-    </rule>
-
-    <!-- Require presence of declare(strict_types = 1) in the same line as php open tag -->
-    <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
-        <properties>
-            <property name="newlinesCountBetweenOpenTagAndDeclare" value="0"/>
-            <property name="newlinesCountAfterDeclare" value="2"/>
-            <property name="spacesCountAroundEqualsSign" value="1"/>
         </properties>
     </rule>
 

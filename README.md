@@ -61,7 +61,6 @@ Rules imported from Doctrine Coding Standard:
 * Abstract classes should not be prefixed with `Abstract`
 * Interfaces should not be suffixed with `Interface`
 * Concrete exception class names should not be suffixed with `Exception`
-* Align equals (`=`) signs in assignments
 * Add spaces around a concatenation operator `$foo = 'Hello ' . 'World!'`;
 * Add spaces between assignment, control and return statements
 * Add spaces after a type cast `$foo = (int) '12345';`
@@ -79,7 +78,6 @@ Changed rules:
 * Don't add any spaces after a negation operator `if (!$cond)`
 * Don't add any spaces before a colon in return type declaration `function (): void {}`
 * Keep `declare()` statement in the same line with `<?php` open tag
-* Always add `declare(strict_types = 1)` at the beginning of a file
 * Keep absolute line length below 120 characters
 
 For full reference of enforcements, go through `src/Easir/ruleset.xml`.

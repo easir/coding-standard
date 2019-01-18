@@ -79,6 +79,7 @@ Changed rules:
 * Keep `declare()` statement in the same line with `<?php` open tag
 * Keep absolute line length below 120 characters
 * Exception class names can be suffixed with `Exception` but it is not mandatory
+* Global functions like `sprintf` or `in_array` don't have to be imported
 
 For full reference of enforcements, go through `src/Easir/ruleset.xml`.
 

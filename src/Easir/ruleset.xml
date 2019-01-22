@@ -60,4 +60,10 @@
         </properties>
     </rule>
 
+    <rule ref="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly">
+        <properties>
+            <property name="allowFallbackGlobalFunctions" value="true"/>
+        </properties>
+    </rule>
+
 </ruleset>

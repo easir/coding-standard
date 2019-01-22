@@ -31,6 +31,7 @@
         <!-- Disallow unused use (ignored cause of issue when type from use is used only in static context -->
         <exclude name="SlevomatCodingStandard.Namespaces.UnusedUses.UnusedUse"/>
         <exclude name="SlevomatCodingStandard.TypeHints.DeclareStrictTypes"/>
+        <exclude name="SlevomatCodingStandard.Classes.SuperfluousExceptionNaming"/>
     </rule>
 
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing">

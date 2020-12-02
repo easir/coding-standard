@@ -1,7 +1,7 @@
 {
   "name": "easir/coding-standard",
   "type": "phpcodesniffer-standard",
-  "description": "The EASI'R Coding Standard is a set of PHPCS rules applied to all Easi'r projects.",
+  "description": "The EASI'R Coding Standard is a set of PHPCS rules applied to all EASI'R projects.",
   "keywords": [
     "doctrine",
     "coding",

@@ -1,7 +1,7 @@
 {
   "name": "easir/coding-standard",
   "type": "phpcodesniffer-standard",
-  "description": "The Easi'r Coding Standard is a set of PHPCS rules applied to all Easi'r projects.",
+  "description": "The EASI'R Coding Standard is a set of PHPCS rules applied to all EASI'R projects.",
   "keywords": [
     "doctrine",
     "coding",
@@ -27,9 +27,9 @@
   },
   "require": {
     "php": "^7.1",
-    "doctrine/coding-standard": "^5.0",
-    "dealerdirect/phpcodesniffer-composer-installer": "0.4.4",
-    "slevomat/coding-standard": "^4.8.0",
+    "doctrine/coding-standard": "^8.2",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+    "slevomat/coding-standard": "^6.4",
     "squizlabs/php_codesniffer": "^3.5.8"
   },
   "config": {
@@ -40,5 +40,5 @@
       "dev-master": "1.0.x-dev"
     }
   },
-  "version": "1.0"
+  "version": "1.1"
 }
